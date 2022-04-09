@@ -42,7 +42,7 @@ public class BaseTestClass {
 		capabilities.setCapability("platformVersion", "7.0");
 		
 		capabilities.setCapability("appPackage", "com.chad.financialrecord");
-		capabilities.setCapability("appActivity", "com.rookie.catatankeuangan.feature.splash.SplashActivity - Catatan Keuangan");
+		capabilities.setCapability("appActivity", "com.rookie.catatankeuangan.feature.splash.SplashActivity");
 		
 		driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 
