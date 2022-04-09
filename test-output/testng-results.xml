@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-09T16:01:02 WIB" name="Default suite" finished-at="2022-04-09T16:01:37 WIB" duration-ms="35290">
+  <suite started-at="2022-04-09T20:18:11 WIB" name="Default suite" finished-at="2022-04-09T20:18:37 WIB" duration-ms="26292">
     <groups>
     </groups>
-    <test started-at="2022-04-09T16:01:02 WIB" name="Default test" finished-at="2022-04-09T16:01:37 WIB" duration-ms="35290">
+    <test started-at="2022-04-09T20:18:11 WIB" name="Default test" finished-at="2022-04-09T20:18:37 WIB" duration-ms="26292">
       <class name="com.juaracoding.catatankeuangan.StepDefinition">
-        <test-method is-config="true" signature="initReports()[pri:0, instance:com.juaracoding.catatankeuangan.StepDefinition@14dd9eb7]" started-at="2022-04-09T16:01:02 WIB" name="initReports" finished-at="2022-04-09T16:01:02 WIB" duration-ms="316" status="PASS">
+        <test-method is-config="true" signature="initReports()[pri:0, instance:com.juaracoding.catatankeuangan.StepDefinition@14dd9eb7]" started-at="2022-04-09T20:18:11 WIB" name="initReports" finished-at="2022-04-09T20:18:11 WIB" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initReports -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.catatankeuangan.StepDefinition@14dd9eb7]" started-at="2022-04-09T16:01:02 WIB" name="setUp" finished-at="2022-04-09T16:01:31 WIB" duration-ms="28606" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.catatankeuangan.StepDefinition@14dd9eb7]" started-at="2022-04-09T20:18:11 WIB" name="setUp" finished-at="2022-04-09T20:18:32 WIB" duration-ms="20474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.juaracoding.catatankeuangan.StepDefinition@14dd9eb7]" started-at="2022-04-09T16:01:31 WIB" name="beforeMethodTest" finished-at="2022-04-09T16:01:31 WIB" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.juaracoding.catatankeuangan.StepDefinition@14dd9eb7]" started-at="2022-04-09T20:18:32 WIB" name="beforeMethodTest" finished-at="2022-04-09T20:18:32 WIB" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodTest -->
-        <test-method signature="testAddcatatankeuangan()[pri:0, instance:com.juaracoding.catatankeuangan.StepDefinition@14dd9eb7]" started-at="2022-04-09T16:01:31 WIB" name="testAddcatatankeuangan" finished-at="2022-04-09T16:01:31 WIB" duration-ms="151" status="FAIL">
+        <test-method signature="testAddcatatankeuangan()[pri:0, instance:com.juaracoding.catatankeuangan.StepDefinition@14dd9eb7]" started-at="2022-04-09T20:18:32 WIB" name="testAddcatatankeuangan" finished-at="2022-04-09T20:18:32 WIB" duration-ms="167" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
@@ -28,7 +28,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'DESKTOP-NUV39RQ', ip: '192.168.100.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.rookie.catatankeuangan...., appPackage: com.chad.financialrecord, databaseEnabled: false, desired: {appActivity: com.rookie.catatankeuangan...., appPackage: com.chad.financialrecord, deviceName: Pixel_2_API_24, platformName: android, platformVersion: 7.0, uuid: emulator-5554}, deviceApiLevel: 24, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.0, statBarHeight: 63, takesScreenshot: true, uuid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 7dd1682c-ad29-4182-9185-fc07be39093b
+Session ID: fdd215eb-bea7-47a6-a1f8-52d8ee751f14
 *** Element info: {Using=id, value=com.chad.financialrecord:id/fabMenu}]]>
             </message>
             <full-stacktrace>
@@ -38,7 +38,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'DESKTOP-NUV39RQ', ip: '192.168.100.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.rookie.catatankeuangan...., appPackage: com.chad.financialrecord, databaseEnabled: false, desired: {appActivity: com.rookie.catatankeuangan...., appPackage: com.chad.financialrecord, deviceName: Pixel_2_API_24, platformName: android, platformVersion: 7.0, uuid: emulator-5554}, deviceApiLevel: 24, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.0, statBarHeight: 63, takesScreenshot: true, uuid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 7dd1682c-ad29-4182-9185-fc07be39093b
+Session ID: fdd215eb-bea7-47a6-a1f8-52d8ee751f14
 *** Element info: {Using=id, value=com.chad.financialrecord:id/fabMenu}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -103,7 +103,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddcatatankeuangan -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.juaracoding.catatankeuangan.StepDefinition@14dd9eb7]" started-at="2022-04-09T16:01:31 WIB" name="getResult" finished-at="2022-04-09T16:01:32 WIB" duration-ms="1521" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.juaracoding.catatankeuangan.StepDefinition@14dd9eb7]" started-at="2022-04-09T20:18:32 WIB" name="getResult" finished-at="2022-04-09T20:18:34 WIB" duration-ms="1734" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,7 +114,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.juaracoding.catatankeuangan.StepDefinition@14dd9eb7]" started-at="2022-04-09T16:01:32 WIB" name="closeApp" finished-at="2022-04-09T16:01:37 WIB" duration-ms="4579" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.juaracoding.catatankeuangan.StepDefinition@14dd9eb7]" started-at="2022-04-09T20:18:34 WIB" name="closeApp" finished-at="2022-04-09T20:18:37 WIB" duration-ms="3581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->

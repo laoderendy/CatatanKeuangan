@@ -48,7 +48,7 @@ public class BaseTestClass {
 
 	}
 	
-	@BeforeMethod 
+	@BeforeMethod
 	public void beforeMethodTest() {
 		dashboard = new Dashboard(driver);
 	}
